@@ -1,0 +1,37 @@
+html {
+    font-size: 16 / 1600 * 100vw;
+    
+    @media (min-width: 320px) {
+        font-size: 16 / 320 * 100vw;
+    }
+    @media (min-width: 900px) {
+        font-size: 14 / 900 * 100vw;
+    }
+    @media (min-width: 1200px) {
+        font-size: 14 / 1200 * 100vw;
+    }
+    @media (min-width: 1440px) {
+        font-size: 16 / 1440 * 100vw;
+    }
+}
+
+body * {
+    font-family: 'Kinopoisk', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* эти параметры нужны, чтобы картинки не теряли пропорции ни при каких обстоятельствах */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}

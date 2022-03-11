@@ -1,0 +1,18 @@
+.burger {
+    position: absolute;
+    top: rem(38);
+    left: rem(35);
+    width: 22px;
+    height: 17px;
+    background: url('assets/images/burger.svg') no-repeat;
+    z-index: 1;
+    cursor: pointer;
+    &:hover {
+        opacity: .6;
+    }
+
+    @media screen and (max-width: 767px) {
+        top: rem(24);
+        left: rem(24);
+    }
+}
